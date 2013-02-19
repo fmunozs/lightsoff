@@ -1,0 +1,35 @@
+#toolbar {
+	text-align: center;
+	padding-top: 0.5em;
+}
+
+img {
+	width: 17%;
+	padding-left: 0.3em;
+	padding-bottom: 0.3em;
+
+}
+
+#board {
+	text-align: center;
+	background-color: #000000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+a:visited, a {
+	color: #ffffff;
+}
+
+#level {
+	float: right;
+}
+#moves {
+	float: left;
+}
+#moves, #level {
+	padding-top: 5px;
+	font-size: 24px;
+	text-align: center;
+}

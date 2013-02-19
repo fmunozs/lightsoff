@@ -1,0 +1,14 @@
+{
+    "name":"Lights Off",
+    "launch_path": "/ffx/lightsoff/index.html",
+    "developer": {
+        "name":"Lights Off - Game",
+        "url":"http://apps.beford.net/ffx/lightsoff"
+    },
+    "description":"Lights off application game.",
+    "icons":{
+        "128":"/ffx/lightsoff/img/icon128.png",
+        "32":"/ffx/lightsoff/img/icon32.png"
+
+    }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html encoding="UTF-8" >
+<html>
+<head>
+	<title>Lights Off</title>
+	<link rel="stylesheet" type="text/css" href="style/main.css" >
+	<link rel="stylesheet" type="text/css" href="style/fxosstub.css"/>
+
+        <script type="text/javascript" src="js/fxosstub.js"></script>
+        <script type="text/javascript" src="js/init.js"></script>
+
+
+</head>
+
+<body onload="init();">
+	<section role="region">
+	  <header>
+		<h1>Lights Off</h1>
+	  </header>
+	</section>
+	<div id="board"></div>
+	
+	<div id="moves">Taps: 0</div>
+	
+	<div id="level">Level: 0</div>
+	
+
+	<footer>
+	  <ul>
+	    <li><button onclick="prevLevel();">Previous</button></li>
+	    <li><button onclick="resetBoard();">Retry</button></li>
+	    <li><button  onclick="nextLevel();">Next</button></li>
+	  </ul>
+	</footer>
+
+	</body>
+
+</html>
